@@ -17,13 +17,13 @@ public class Main {
             2) Peso argentino =>> Dólar\n
             3) Dólar =>> Peso Chileno\n
             4) Peso Chileno=>> Dólar\n
-            5) Dólar =>> Euro\n 
-            6) Dólar =>> Euro\n 
+            5) Dólar =>> Real Brasileño\n 
+            6) Real Brasileño =>> Dólar\n 
             7) Salir\n
             """;
-        String menuConverted = "Elige la cantidad que deseas convertir:  ";
+        String menuConverted = "Ingrese la cantidad que deseas convertir:  ";
 
-        String url_api = "https://v6.exchangerate-api.com/v6/9c16ad552df47d24a09a6e84/pair/";
+
 
 
         while(salir){
@@ -42,7 +42,6 @@ public class Main {
                     case 1: {
                         // Dólar estadounidense -> Peso Argentino
                         conv.setCantidad(qt);
-                        conv.setUrlAPI(url_api);
                         conv.setPrimerPais("USD");
                         conv.setSegundoPais("ARS");
                         System.out.println(conv.conversion()+"\n");
@@ -51,43 +50,38 @@ public class Main {
                     case 2: {
                         // Peso Argentino -> Dólar estadounidense
                         conv.setCantidad(qt);
-                        conv.setUrlAPI(url_api);
                         conv.setPrimerPais("ARS");
                         conv.setSegundoPais("USD");
                         System.out.println(conv.conversion()+"\n");
                         break;
                     }
                     case 3: {
-                        // Dólar estadounidense -> Real brasileño
+                        // Dólar estadounidense -> Peso Chileno
                         conv.setCantidad(qt);
-                        conv.setUrlAPI(url_api);
                         conv.setPrimerPais("USD");
                         conv.setSegundoPais("CLP");
                         System.out.println(conv.conversion()+"\n");
                         break;
                     }
                     case 4: {
-                        // Real brasileño -> Dólar estadounidense
+                        // Peso Chileno -> Dólar estadounidense
                         conv.setCantidad(qt);
-                        conv.setUrlAPI(url_api);
                         conv.setPrimerPais("CLP");
                         conv.setSegundoPais("USD");
                         System.out.println(conv.conversion()+"\n");
                         break;
                     }
                     case 5: {
-                        // Dólar estadounidense -> Peso colombiano
+                        // Dólar estadounidense -> Real brasileño
                         conv.setCantidad(qt);
-                        conv.setUrlAPI(url_api);
                         conv.setPrimerPais("USD");
-                        conv.setPrimerPais("BRL");
+                        conv.setSegundoPais("BRL");
                         System.out.println(conv.conversion()+"\n");
                         break;
                     }
                     case 6: {
-                        // Peso colombiano -> Dólar estadounidense
+                        // Real brasileño -> Dólar estadounidense
                         conv.setCantidad(qt);
-                        conv.setUrlAPI(url_api);
                         conv.setPrimerPais("BRL");
                         conv.setSegundoPais("USD");
                         System.out.println(conv.conversion()+"\n");

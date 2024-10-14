@@ -2,6 +2,10 @@ package org.challenceAlura;
 
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * En esta clase se guarda el resultado del json, solo la cantidad resultante despues de convertir la moneda
+ * y el pais de salida
+ */
 public class Resultado {
     @SerializedName("conversion_result")
     private double cantidad;
@@ -17,15 +21,8 @@ public class Resultado {
         return cantidad;
     }
 
-    public void setCantidad(double cantidad) {
-        this.cantidad = cantidad;
-    }
-
     public String getPaisSalida() {
         return paisSalida;
     }
 
-    public void setPaisSalida(String paisSalida) {
-        this.paisSalida = paisSalida;
-    }
 }

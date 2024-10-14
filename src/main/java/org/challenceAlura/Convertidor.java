@@ -6,23 +6,37 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+/**
+ *Esta clase se encarga de crear la petición a la API, usando la url_api, que es la dirección parcial,
+ * y la función Conversion continúa agregando la cantidad, el país de origen y el país de destino para
+ * la conversión.
+ */
 public class Convertidor {
-    private String urlAPI;
+    String url_api = "https://v6.exchangerate-api.com/v6/9c16ad552df47d24a09a6e84/pair/";
     private int cantidad;
     private String primerPais;
     private String segundoPais;
 
+    /**
+     * Constructor de la clase
+     */
     public Convertidor(String url_api, int cantidad, String paisEntrada, String paisSalida){
         this.cantidad = cantidad;
-        this.urlAPI = url_api;
         this.primerPais = paisEntrada;
         this.segundoPais = paisSalida;
     }
 
+    /**
+     *Esta función se encarga de crear la petición a la API con los datos seleccionados en el menú de opciones en el Main.
+     * @return Es un String que contiene la información devuelta en formato JSON por la API.
+     * Esto incluye la cantidad a convertir junto con el país de origen y la cantidad equivalente
+     * en la moneda del país de destino.
+     *
+     */
     public String conversion() throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(getUrlAPI() + getPrimerPais() +
+                .uri(URI.create(this.url_api + getPrimerPais() +
                         "/"+ getSegundoPais() + "/" + String.valueOf(getCantidad())))
                 .build();
         HttpResponse<String> response = client
@@ -33,13 +47,6 @@ public class Convertidor {
                getSegundoPais() + " es: " + results.getCantidad() + " " +results.getPaisSalida();
     }
 
-    public String getUrlAPI() {
-        return urlAPI;
-    }
-
-    public void setUrlAPI(String urlAPI) {
-        this.urlAPI = urlAPI;
-    }
 
     public int getCantidad() {
         return cantidad;
