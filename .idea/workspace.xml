@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bc263420-f566-4f84-b349-40805da4f91b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/challenceAlura/Convertidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/challenceAlura/Convertidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/challenceAlura/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/challenceAlura/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/challenceAlura/Resultado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/challenceAlura/Resultado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728828422872</updated>
       <workItem from="1728828422876" duration="4834000" />
-      <workItem from="1728911560070" duration="2457000" />
+      <workItem from="1728911560070" duration="3929000" />
     </task>
     <servers />
   </component>
