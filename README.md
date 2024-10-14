@@ -1,3 +1,7 @@
+
+#Proyecto realizado con ONE - Oracle Next Education
+
+
 # Conversor de Monedas
 
 Este proyecto es un conversor de monedas que utiliza la API de [Exchangerate API](https://app.exchangerate-api.com) para enviar peticiones y recibir respuestas en formato JSON. El conversor permite convertir una cantidad de dinero de una moneda a su valor equivalente en otra moneda y mostrar el resultado por pantalla.
@@ -34,8 +38,11 @@ Este proyecto es un conversor de monedas que utiliza la API de [Exchangerate API
 3. Ya puedes Correr el programa y probar las opciones de conversion
 
 ## Screenshots
-.Este es el menu Principal por consola 
-![Menú Principal](screenshots/MenuPrincial.png)
+Este es el menu Principal por consola 
 
-.Esto es la salida despues de seleccionar la opción 1 y convertir 1 USD a ARG
-![salida](screenshots/salida.png)
+![Menú Principal](screenshots/MenuPrincipal.png)
+
+Esto es la salida despues de seleccionar la opción 1 y convertir 1 USD a ARG
+![salida](screenshots/Salida.png)
+-----------------------------------------------------------------------------------------
+Gracias a ![Menú Principal](screenshots/OracleAlura.png) por la oportunidad.
