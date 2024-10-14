@@ -38,11 +38,13 @@ Este proyecto es un conversor de monedas que utiliza la API de [Exchangerate API
 3. Ya puedes Correr el programa y probar las opciones de conversion
 
 ## Screenshots
+
 Este es el menu Principal por consola 
 
 ![Menú Principal](screenshots/MenuPrincipal.png)
 
 Esto es la salida despues de seleccionar la opción 1 y convertir 1 USD a ARG
+
 ![salida](screenshots/Salida.png)
 -----------------------------------------------------------------------------------------
 # Gracias a ![oracle + alura](screenshots/OracleAlura.png) por la oportunidad.
