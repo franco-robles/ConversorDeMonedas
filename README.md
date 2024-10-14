@@ -1,6 +1,5 @@
 
-#Proyecto realizado con ONE - Oracle Next Education
-
+# Proyecto realizado con ONE - Oracle Next Education
 
 # Conversor de Monedas
 
@@ -45,4 +44,4 @@ Este es el menu Principal por consola
 Esto es la salida despues de seleccionar la opción 1 y convertir 1 USD a ARG
 ![salida](screenshots/Salida.png)
 -----------------------------------------------------------------------------------------
-Gracias a ![Menú Principal](screenshots/OracleAlura.png) por la oportunidad.
+# Gracias a ![oracle + alura](screenshots/OracleAlura.png) por la oportunidad.
