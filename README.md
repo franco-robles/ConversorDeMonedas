@@ -12,7 +12,8 @@ Este proyecto es un conversor de monedas que utiliza la API de [Exchangerate API
 - Imprime los resultados por pantalla.
 - Utiliza Gson para leer y procesar los datos en formato JSON.
 - Desarrollado en Java jdk 23.
-- Usando el gestor Maven 
+- Usando el gestor Maven
+- El IDE utilizado fue IntelliJ
   
 ## Instalación
 
